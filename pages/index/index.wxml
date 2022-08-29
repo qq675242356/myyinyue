@@ -1,0 +1,42 @@
+<view class="container">
+    <swiper class="banners" indicator-dots	indicator-color="ivory" indicator-active-color="#d43c33" >
+        <swiper-item class="item" wx:for="{{bannerList}}" wx:key="bannerId">
+            <image src="{{item.pic}}"></image>
+        </swiper-item>
+    </swiper>
+
+    <view class="scrollCon">
+        <view class="navItem">
+            <text class="iconfont icon-tuijian1"></text>
+            <text>每日推荐</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-tuijian"></text>
+            <text>Other页面</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-iconfontyouhuiquan"></text>
+            <text>排行榜</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-wendang-01"></text>
+            <text>电台</text>
+        </view>
+        <view class="navItem">
+            <text class="iconfont icon-wendang-01"></text>
+            <text>直播</text>
+        </view>
+    </view>
+
+    <view>
+        <NavHeader title="推荐歌曲" nav="为你精心推荐"></NavHeader>
+        <scroll-view class="scroll-container" enable-flex scroll-x>
+            <view wx:for="{{recommendList}}" wx:key="id" wx:for-item="recommendItem">
+                <image src="{{recommendItem.picUrl}}"></image>
+                <text>{{recommendItem.name}}</text>
+            </view>
+        </scroll-view>
+
+    </view>
+
+</view>
