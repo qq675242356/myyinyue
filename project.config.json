@@ -24,7 +24,7 @@
 		"enhance": true
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.25.4",
+	"libVersion": "2.13.1",
 	"appid": "wx3b94b88096438e5a",
 	"projectname": "myyinyue",
 	"debugOptions": {
