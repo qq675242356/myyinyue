@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css_reset/reset.css">
+    <style>
+        body {
+            background-color: #bbffaa;
+        }
+
+        .news-container {
+            width: 300px;
+            height: 324px;
+            margin: 50px auto;
+            background-color: white;
+        }
+
+        a {
+            color: gray;
+            text-decoration: none;
+        }
+        a:hover{
+            color: brown;
+        }
+
+        .title {
+            border-top: yellow solid 1px;
+            height: 46px;
+            line-height: 42px;
+        }
+
+        .title h2{
+            border-top: fuchsia 1px solid;
+            margin-top: -1px;
+            display: inline-block;
+        }
+
+        .title a {
+        }
+
+        .imga{
+            height: 150px;
+        }
+
+
+        .imga h3{
+            color: white;
+            padding-left: 20px;
+            margin-top: -30px;
+        }
+
+        .list{
+            margin-top: 20px;
+        }
+
+        .list li::before{
+            content: "✦";
+            color: gray;
+            margin-right: 14px;
+        }
+
+        .list li{
+            margin-top: 11px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="news-container">
+    <div class="title">
+        <h2><a href="javascript:;">体育</a></h2>
+    </div>
+    <div class="imga">
+        <a href="javascript:;">
+            <img src="img/网易新闻.png" alt="体育新闻">
+            <h3>摔砸，登录西甲射手！</h3>
+        </a>
+    </div>
+    <div class="list">
+        <ul>
+            <li><a href="javascript:;">女王小威廉姆斯：我还不够强大</a></li>
+            <li><a href="javascript:;">博格七怒撕博格巴，兄弟反目为了啥？</a></li>
+            <li><a href="javascript:;">拿下米切尔 骑士组成4巨头</a></li>
+            <li><a href="javascript:;">吴易昺的新篇章</a></li>
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

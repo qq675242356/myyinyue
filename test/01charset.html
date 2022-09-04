@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="gb2312">
+    <title>杨建悟</title>
+    <style>
+
+        /*p[title$=abc],span {*/
+        /*    color: fuchsia;*/
+        /*}*/
+
+        ul>li:first-of-type{
+            color: fuchsia;
+        }
+
+        :link{
+            color: antiquewhite;
+        }
+
+        #aa::first-letter{
+            color: rgba(92, 21, 21, 0.99);
+
+        }
+        ::before{
+            content: "aaa";
+            color: #723232;
+
+        }
+
+    </style>
+</head>
+<body>
+
+
+<ul>
+
+    <p id="aa">ASDLKFJAS;LDFKJ</p>
+
+    <a href="http://www.baidu.com">超链接</a>
+    <span>aaa</span>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+    <li>1</li>
+</ul>
+<p title="abc">aaaaaaaa  <span title="abc">bb</span></p>
+<span title="abc">bb</span>
+<p></p>
+
+</body>
+</html>
