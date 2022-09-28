@@ -1,8 +1,11 @@
 {
   "pages": [
+    "songPackage/pages/recommendSong",
     "pages/index/index",
+    "songPackage/pages/songDetail",
     "pages/login/login",
     "pages/personal/personal"
+  
   ],
   "window": {
     "backgroundTextStyle": "light",
